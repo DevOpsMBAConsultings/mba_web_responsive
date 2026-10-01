@@ -29,7 +29,7 @@ AppsMenuPreferences.template = xml`
             title="App Menu Preferences"
             class="dropdown-toggle o-dropdown--narrow"
             t-on-click="() => this._onClick()">
-                <i class="fa fa-tint fa-lg px-1"/>
+                <i class="oi oi-lg px-1" data-icon="palette"/>
         </button>
     </div>
 `;

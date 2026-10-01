@@ -23,7 +23,7 @@
                     draggable="false"
                     t-att-src="this.webIconData"
                 />
-                <i t-if="this.isActive" class="fa fa-check-circle o-app-menu-item__active" />
+                <i t-if="this.isActive" class="oi o-app-menu-item__active" data-icon="check_circle" />
             </div>
             <span class="o-app-menu-item__name" t-att-title="this.props.app.name">
                 <t t-out="this.props.app.name" />
