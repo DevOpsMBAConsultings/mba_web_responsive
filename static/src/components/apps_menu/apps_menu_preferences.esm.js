@@ -16,7 +16,7 @@ class AppsMenuPreferences extends Component {
     async _onClick() {
         const onClose = () => this.action.doAction("reload_context");
         const action = await this.action.loadAction(
-            "web_responsive.res_users_view_form_apps_menu_preferences_action"
+            "mba_web_responsive.res_users_view_form_apps_menu_preferences_action"
         );
         this.action.doAction({...action, res_id: this.user.userId}, {onClose}).then();
     }

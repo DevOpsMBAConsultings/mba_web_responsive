@@ -10,20 +10,20 @@
 -->
 <templates id="form_view">
     <!-- Template for buttons that display only the icon in xs -->
-    <t t-name="web_responsive.icon_button_create">
+    <t t-name="mba_web_responsive.icon_button_create">
         <i t-attf-class="fa fa-plus" title="New" />
         <span class="d-none d-sm-inline ms-1">New</span>
     </t>
-    <t t-name="web_responsive.icon_button_save">
+    <t t-name="mba_web_responsive.icon_button_save">
         <i t-attf-class="fa fa-check" title="Save" />
         <span class="d-none d-sm-inline ms-1">Save</span>
     </t>
-    <t t-name="web_responsive.icon_button_discard">
+    <t t-name="mba_web_responsive.icon_button_discard">
         <i t-attf-class="fa fa-undo" title="Discard" />
         <span class="d-none d-sm-inline ms-1">Discard</span>
     </t>
     <t
-        t-name="web_responsive.FormView.Buttons"
+        t-name="mba_web_responsive.FormView.Buttons"
         t-inherit="web.FormView.Buttons"
         t-inherit-mode="extension"
     >
@@ -39,7 +39,7 @@
                 t-on-click.stop="() => this.saveButtonClicked({closable: true})"
                 t-if="model.root.isInEdition"
             >
-                <t t-call="web_responsive.icon_button_save" />
+                <t t-call="mba_web_responsive.icon_button_save" />
             </button>
         </xpath>
         <xpath expr="//button[hasclass('o_form_button_cancel')]" position="replace">
@@ -50,7 +50,7 @@
                 t-on-click.stop="discard"
                 t-if="model.root.isInEdition"
             >
-                <t t-call="web_responsive.icon_button_discard" />
+                <t t-call="mba_web_responsive.icon_button_discard" />
             </button>
         </xpath>
         <xpath expr="//button[hasclass('o_form_button_create')]" position="replace">
@@ -61,13 +61,13 @@
                 t-on-click.stop="create"
                 t-if="!model.root.isInEdition and canCreate"
             >
-                <t t-call="web_responsive.icon_button_create" />
+                <t t-call="mba_web_responsive.icon_button_create" />
             </button>
         </xpath>
     </t>
 
     <t
-        t-name="web_responsive.FormView"
+        t-name="mba_web_responsive.FormView"
         t-inherit="web.FormView"
         t-inherit-mode="extension"
     >
@@ -82,7 +82,7 @@
                 t-on-click.stop="create"
                 t-if="canCreate"
             >
-                <t t-call="web_responsive.icon_button_create" />
+                <t t-call="mba_web_responsive.icon_button_create" />
             </button>
         </xpath>
         <xpath
@@ -96,19 +96,19 @@
                 t-on-click.stop="create"
                 t-if="canCreate"
             >
-                <t t-call="web_responsive.icon_button_create" />
+                <t t-call="mba_web_responsive.icon_button_create" />
             </button>
         </xpath>
     </t>
 
-    <t t-name="web_responsive.FormStatusIndicator" t-inherit="web.FormStatusIndicator">
+    <t t-name="mba_web_responsive.FormStatusIndicator" t-inherit="web.FormStatusIndicator">
         <!-- Change "Discard" button hotkey to "D" -->
         <xpath expr="//button[hasclass('o_form_button_cancel')]" position="attributes">
             <attribute name="data-hotkey">d</attribute>
         </xpath>
     </t>
     <t
-        t-name="web_responsive.KanbanView"
+        t-name="mba_web_responsive.KanbanView"
         t-inherit="web.KanbanView"
         t-inherit-mode="extension"
     >
@@ -122,12 +122,12 @@
                 data-bounce-button=""
                 t-if="canCreate and props.showButtons"
             >
-                <t t-call="web_responsive.icon_button_create" />
+                <t t-call="mba_web_responsive.icon_button_create" />
             </button>
         </xpath>
     </t>
     <t
-        t-name="web_responsive.ListView"
+        t-name="mba_web_responsive.ListView"
         t-inherit="web.ListView"
         t-inherit-mode="extension"
     >
@@ -141,12 +141,12 @@
                 data-bounce-button=""
                 t-if="!editedRecord and activeActions.create and props.showButtons"
             >
-                <t t-call="web_responsive.icon_button_create" />
+                <t t-call="mba_web_responsive.icon_button_create" />
             </button>
         </xpath>
     </t>
     <t
-        t-name="web_responsive.ListView.Buttons"
+        t-name="mba_web_responsive.ListView.Buttons"
         t-inherit="web.ListView.EditableButtons"
         t-inherit-mode="extension"
     >
@@ -159,7 +159,7 @@
                 data-hotkey="s"
                 t-on-click.stop="onClickSave"
             >
-                <t t-call="web_responsive.icon_button_save" />
+                <t t-call="mba_web_responsive.icon_button_save" />
             </button>
         </xpath>
         <xpath expr="//button[hasclass('o_list_button_discard')]" position="replace">
@@ -171,7 +171,7 @@
                 t-on-click.stop="onClickDiscard"
                 t-on-mousedown="onMouseDownDiscard"
             >
-                <t t-call="web_responsive.icon_button_discard" />
+                <t t-call="mba_web_responsive.icon_button_discard" />
             </button>
         </xpath>
     </t>

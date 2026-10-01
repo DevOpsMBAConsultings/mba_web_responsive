@@ -3,7 +3,7 @@
      License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl). -->
 <templates>
     <t
-        t-name="web_responsive.Chatter"
+        t-name="mba_web_responsive.Chatter"
         t-inherit="mail.Chatter"
         t-inherit-mode="extension"
     >

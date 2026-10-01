@@ -8,8 +8,8 @@
 
 import {Component, onWillStart, proxy} from "@odoo/owl";
 import {useBus, useService} from "@web/core/utils/hooks";
-import {AppMenuItem} from "@web_responsive/components/apps_menu_item/apps_menu_item.esm";
-import {AppsMenuSearchBar} from "@web_responsive/components/menu_searchbar/searchbar.esm";
+import {AppMenuItem} from "@mba_web_responsive/components/apps_menu_item/apps_menu_item.esm";
+import {AppsMenuSearchBar} from "@mba_web_responsive/components/menu_searchbar/searchbar.esm";
 import {NavBar} from "@web/webclient/navbar/navbar";
 import {WebClient} from "@web/webclient/webclient";
 import {browser} from "@web/core/browser/browser";
@@ -175,7 +175,7 @@ patch(NavBar.prototype, {
 });
 
 Object.assign(AppsMenu, {
-    template: "web_responsive.AppsMenu",
+    template: "mba_web_responsive.AppsMenu",
     props: {
         slots: {
             type: Object,

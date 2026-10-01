@@ -1,9 +1,9 @@
 /* Copyright 2023 Taras Shabaranskyi
  * License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl). */
 
-import {AppsMenuCanonicalSearchBar} from "@web_responsive/components/menu_canonical_searchbar/searchbar.esm";
-import {AppsMenuFuseSearchBar} from "@web_responsive/components/menu_fuse_searchbar/searchbar.esm";
-import {AppsMenuOdooSearchBar} from "@web_responsive/components/menu_odoo_searchbar/searchbar.esm";
+import {AppsMenuCanonicalSearchBar} from "@mba_web_responsive/components/menu_canonical_searchbar/searchbar.esm";
+import {AppsMenuFuseSearchBar} from "@mba_web_responsive/components/menu_fuse_searchbar/searchbar.esm";
+import {AppsMenuOdooSearchBar} from "@mba_web_responsive/components/menu_odoo_searchbar/searchbar.esm";
 import {Component} from "@odoo/owl";
 import {session} from "@web/session";
 
@@ -16,7 +16,7 @@ export class AppsMenuSearchBar extends Component {
 
 Object.assign(AppsMenuSearchBar, {
     props: {},
-    template: "web_responsive.AppsMenuSearchBar",
+    template: "mba_web_responsive.AppsMenuSearchBar",
     components: {
         AppsMenuOdooSearchBar,
         AppsMenuCanonicalSearchBar,

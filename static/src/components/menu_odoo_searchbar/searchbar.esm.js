@@ -61,4 +61,4 @@ export class AppsMenuOdooSearchBar extends Component {
 }
 
 AppsMenuOdooSearchBar.props = {};
-AppsMenuOdooSearchBar.template = "web_responsive.AppsMenuOdooSearchBar";
+AppsMenuOdooSearchBar.template = "mba_web_responsive.AppsMenuOdooSearchBar";

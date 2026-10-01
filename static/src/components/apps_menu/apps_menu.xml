@@ -37,7 +37,7 @@
     </t>
 
     <!-- Apps menu -->
-    <t t-name="web_responsive.AppsMenu">
+    <t t-name="mba_web_responsive.AppsMenu">
         <div class="o_grid_apps_menu" t-att-data-theme="this.theme">
             <button
                 class="o_grid_apps_menu__button"

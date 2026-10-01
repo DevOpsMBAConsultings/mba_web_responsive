@@ -4,29 +4,18 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Odoo Server 19.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-02-02 22:13+0000\n"
-"Last-Translator: eduardgm <eduard.garcia@qubiq.es>\n"
-"Language-Team: none\n"
-"Language: ca\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.10\n"
-
-#. module: mba_web_responsive
-#. odoo-javascript
-#: code:addons/mba_web_responsive/static/src/views/form/status_bar_buttons.xml:0
-#, python-format
-msgid "Action"
-msgstr ""
+"Plural-Forms: \n"
 
 #. module: mba_web_responsive
 #. odoo-javascript
 #: code:addons/mba_web_responsive/static/src/components/menu_canonical_searchbar/searchbar.xml:0
-#, python-format
 msgid "App Icon"
 msgstr ""
 
@@ -67,14 +56,18 @@ msgstr ""
 #. module: mba_web_responsive
 #. odoo-javascript
 #: code:addons/mba_web_responsive/static/src/legacy/xml/form_buttons.xml:0
-#, python-format
 msgid "Discard"
-msgstr "Descartar"
+msgstr ""
+
+#. module: mba_web_responsive
+#: model:ir.model.fields,field_description:mba_web_responsive.field_ir_http__display_name
+#: model:ir.model.fields,field_description:mba_web_responsive.field_res_users__display_name
+msgid "Display Name"
+msgstr ""
 
 #. module: mba_web_responsive
 #. odoo-javascript
 #: code:addons/mba_web_responsive/static/src/components/command_palette/main.xml:0
-#, python-format
 msgid "Exit"
 msgstr ""
 
@@ -92,23 +85,26 @@ msgstr ""
 #. module: mba_web_responsive
 #. odoo-javascript
 #: code:addons/mba_web_responsive/static/src/components/apps_menu/apps_menu.xml:0
-#, python-format
 msgid "Home Menu"
+msgstr ""
+
+#. module: mba_web_responsive
+#: model:ir.model.fields,field_description:mba_web_responsive.field_ir_http__id
+#: model:ir.model.fields,field_description:mba_web_responsive.field_res_users__id
+msgid "ID"
 msgstr ""
 
 #. module: mba_web_responsive
 #. odoo-javascript
 #: code:addons/mba_web_responsive/static/src/components/chatter/chatter.xml:0
-#, python-format
 msgid "Log note"
 msgstr ""
 
 #. module: mba_web_responsive
 #. odoo-javascript
 #: code:addons/mba_web_responsive/static/src/components/file_viewer/file_viewer.xml:0
-#, python-format
 msgid "Maximize"
-msgstr "Maximitzar"
+msgstr ""
 
 #. module: mba_web_responsive
 #: model:ir.model.fields.selection,name:mba_web_responsive.selection__res_users__apps_menu_theme__milk
@@ -118,21 +114,18 @@ msgstr ""
 #. module: mba_web_responsive
 #. odoo-javascript
 #: code:addons/mba_web_responsive/static/src/components/file_viewer/file_viewer.xml:0
-#, python-format
 msgid "Minimize"
-msgstr "Minimitzar"
+msgstr ""
 
 #. module: mba_web_responsive
 #. odoo-javascript
 #: code:addons/mba_web_responsive/static/src/legacy/xml/form_buttons.xml:0
-#, python-format
 msgid "New"
 msgstr ""
 
 #. module: mba_web_responsive
 #. odoo-javascript
 #: code:addons/mba_web_responsive/static/src/components/menu_canonical_searchbar/searchbar.xml:0
-#, python-format
 msgid "Nothing to show"
 msgstr ""
 
@@ -149,9 +142,8 @@ msgstr ""
 #. module: mba_web_responsive
 #. odoo-javascript
 #: code:addons/mba_web_responsive/static/src/legacy/xml/form_buttons.xml:0
-#, python-format
 msgid "Save"
-msgstr "Guardar"
+msgstr ""
 
 #. module: mba_web_responsive
 #: model_terms:ir.ui.view,arch_db:mba_web_responsive.res_users_view_form_apps_menu_preferences
@@ -167,14 +159,12 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/mba_web_responsive/static/src/components/menu_canonical_searchbar/searchbar.xml:0
 #: code:addons/mba_web_responsive/static/src/components/menu_odoo_searchbar/searchbar.xml:0
-#, python-format
 msgid "Search menus..."
-msgstr "Cercar menús..."
+msgstr ""
 
 #. module: mba_web_responsive
 #. odoo-javascript
 #: code:addons/mba_web_responsive/static/src/components/chatter/chatter.xml:0
-#, python-format
 msgid "Send message"
 msgstr ""
 
@@ -202,33 +192,3 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mba_web_responsive.res_users_view_form_apps_menu_preferences
 msgid "uses a standard algorithm"
 msgstr ""
-
-#, python-format
-#~ msgid "Create"
-#~ msgstr "Crear"
-
-#~ msgid "Chatter Position"
-#~ msgstr "Posició del chatter"
-
-#, python-format
-#~ msgid "Edit"
-#~ msgstr "Editar"
-
-#~ msgid "Normal"
-#~ msgstr "Normal"
-
-#, python-format
-#~ msgid "Quick actions"
-#~ msgstr "Accions ràpides"
-
-#~ msgid "Sided"
-#~ msgstr "Lateral"
-
-#~ msgid "Users"
-#~ msgstr "Usuaris"
-
-#~ msgid "Close"
-#~ msgstr "Tancar"
-
-#~ msgid "false"
-#~ msgstr "fals"

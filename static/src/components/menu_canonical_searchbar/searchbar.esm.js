@@ -9,7 +9,7 @@ import {Component, onPatched, onWillPatch, useRef, proxy} from "@odoo/owl";
 import {
     collectRootMenuItems,
     collectSubMenuItems,
-} from "@web_responsive/components/apps_menu_tools.esm";
+} from "@mba_web_responsive/components/apps_menu_tools.esm";
 import {useAutofocus, useService} from "@web/core/utils/hooks";
 import {debounce} from "@web/core/utils/timing";
 import {escapeRegExp} from "@web/core/utils/strings";
@@ -233,4 +233,4 @@ export class AppsMenuCanonicalSearchBar extends Component {
 }
 
 AppsMenuCanonicalSearchBar.props = {};
-AppsMenuCanonicalSearchBar.template = "web_responsive.AppsMenuCanonicalSearchBar";
+AppsMenuCanonicalSearchBar.template = "mba_web_responsive.AppsMenuCanonicalSearchBar";

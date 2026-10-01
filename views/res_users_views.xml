@@ -57,12 +57,12 @@
             name="view_ids"
             eval="[
                Command.clear(),
-               Command.create({'view_mode': 'form', 'view_id': ref('web_responsive.res_users_view_form_apps_menu_preferences')})
+               Command.create({'view_mode': 'form', 'view_id': ref('mba_web_responsive.res_users_view_form_apps_menu_preferences')})
                ]"
         />
     </record>
 
-    <record id="view_users_form_web_responsive" model="ir.ui.view">
+    <record id="view_users_form_mba_web_responsive" model="ir.ui.view">
         <field name="name">res.users.form.web.responsive</field>
         <field name="model">res.users</field>
         <field name="inherit_id" ref="base.view_users_form" />

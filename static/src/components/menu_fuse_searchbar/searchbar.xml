@@ -4,8 +4,8 @@
 <templates>
     <!-- Search bar -->
     <t
-        t-name="web_responsive.AppsMenuFuseSearchBar"
-        t-inherit="web_responsive.AppsMenuCanonicalSearchBar"
+        t-name="mba_web_responsive.AppsMenuFuseSearchBar"
+        t-inherit="mba_web_responsive.AppsMenuCanonicalSearchBar"
         t-inherit-mode="primary"
     >
         <xpath expr="//t[@t-foreach='state.rootItems']" position="attributes">

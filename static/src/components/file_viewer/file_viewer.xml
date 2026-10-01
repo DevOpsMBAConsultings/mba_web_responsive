@@ -5,7 +5,7 @@
      License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl). -->
 <template>
     <t
-        t-name="web_responsive.FileViewer"
+        t-name="mba_web_responsive.FileViewer"
         t-inherit="web.FileViewer"
         t-inherit-mode="extension"
     >

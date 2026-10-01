@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <templates>
     <t
-        t-name="web_responsive.CommandPalette"
+        t-name="mba_web_responsive.CommandPalette"
         t-inherit="web.CommandPalette"
         t-inherit-mode="extension"
     >

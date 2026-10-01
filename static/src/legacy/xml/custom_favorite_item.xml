@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <templates>
     <t
-        t-name="web_responsive.CustomFavoriteItem"
+        t-name="mba_web_responsive.CustomFavoriteItem"
         t-inherit="web.CustomFavoriteItem"
         t-inherit-mode="extension"
     >

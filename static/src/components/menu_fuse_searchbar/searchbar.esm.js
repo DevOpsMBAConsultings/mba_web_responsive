@@ -2,7 +2,7 @@
 /* Copyright 2023 Taras Shabaranskyi
  * License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl). */
 
-import {AppsMenuCanonicalSearchBar} from "@web_responsive/components/menu_canonical_searchbar/searchbar.esm";
+import {AppsMenuCanonicalSearchBar} from "@mba_web_responsive/components/menu_canonical_searchbar/searchbar.esm";
 
 /**
  * @extends AppsMenuCanonicalSearchBar
@@ -28,4 +28,4 @@ export class AppsMenuFuseSearchBar extends AppsMenuCanonicalSearchBar {
 }
 
 AppsMenuFuseSearchBar.props = {};
-AppsMenuFuseSearchBar.template = "web_responsive.AppsMenuFuseSearchBar";
+AppsMenuFuseSearchBar.template = "mba_web_responsive.AppsMenuFuseSearchBar";

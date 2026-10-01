@@ -5,7 +5,7 @@
  * License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl). */
 
 import {Component, onWillUpdateProps} from "@odoo/owl";
-import {getWebIconData} from "@web_responsive/components/apps_menu_tools.esm";
+import {getWebIconData} from "@mba_web_responsive/components/apps_menu_tools.esm";
 
 export class AppMenuItem extends Component {
     setup() {
@@ -39,7 +39,7 @@ export class AppMenuItem extends Component {
 }
 
 Object.assign(AppMenuItem, {
-    template: "web_responsive.AppMenuItem",
+    template: "mba_web_responsive.AppMenuItem",
     props: {
         app: Object,
         href: String,

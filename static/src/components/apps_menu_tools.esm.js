@@ -5,7 +5,7 @@
  * License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl). */
 
 export function getWebIconData(menu) {
-    const result = "/web_responsive/static/img/default_icon_app.png";
+    const result = "/mba_web_responsive/static/img/default_icon_app.png";
     const webIcon = menu.webIcon;
     if (webIcon && webIcon.split(",").length === 2) {
         const path = webIcon.replace(",", "/");
