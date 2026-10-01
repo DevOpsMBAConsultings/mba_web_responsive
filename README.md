@@ -14,5 +14,14 @@ versionó una copia del módulo ya portado a 20.0.
 - Módulo single: el repo es el módulo (`__manifest__.py` en la raíz).
 - Se conservan `author`, `maintainers` y `license` (`LGPL-3`) originales de OCA.
 
+## Despliegue
+
+El nombre técnico del módulo es `web_responsive` (el de la carpeta). Al clonar,
+usar un nombre de carpeta explícito para no renombrar el módulo:
+
+```bash
+git clone git@github.com:DevOpsMBAConsultings/mba_web_responsive.git web_responsive
+```
+
 Cuando OCA publique el port oficial de `web_responsive` para 20.0, evaluar
 reemplazar este repo por el upstream.
