@@ -12,7 +12,7 @@
                 <i class="fa fa-search search-icon fs-4 my-auto d-none d-sm-flex" />
                 <input
                     type="search"
-                    t-ref="SearchBarInput"
+                    t-ref="this.searchBarInput"
                     t-on-input="(ev) => this._searchMenus(ev)"
                     t-on-keydown="(ev) => this._onKeyDown(ev)"
                     autocomplete="off"
@@ -23,7 +23,7 @@
             <ul
                 t-if="this.hasItemsToDisplay"
                 class="list-unstyled search-list"
-                t-ref="searchItems"
+                t-ref="this.searchItemsRef"
             >
                 <t t-foreach="this.state.rootItems" t-as="menu" t-key="menu.id">
                     <li t-attf-class="search-item {{this.highlighted(menu_index)}}">

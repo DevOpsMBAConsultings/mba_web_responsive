@@ -12,7 +12,7 @@
                 <i class="fa fa-search search-icon fs-4 my-auto d-none d-sm-flex" />
                 <input
                     type="search"
-                    t-ref="SearchBarInput"
+                    t-ref="this.searchBarInput"
                     t-on-input="(ev) => this._onSearchInput(ev)"
                     t-on-click="(ev) => this._onSearchClick(ev)"
                     autocomplete="off"

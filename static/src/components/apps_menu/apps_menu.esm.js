@@ -6,7 +6,7 @@
  * Copyright 2023 Taras Shabaranskyi
  * License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl). */
 
-import {Component, onWillStart, proxy} from "@odoo/owl";
+import {Component, onWillStart, proxy, t, useProps} from "@odoo/owl";
 import {useBus, useService} from "@web/core/utils/hooks";
 import {AppMenuItem} from "@mba_web_responsive/components/apps_menu_item/apps_menu_item.esm";
 import {AppsMenuSearchBar} from "@mba_web_responsive/components/menu_searchbar/searchbar.esm";
@@ -58,6 +58,12 @@ patch(WebClient.prototype, {
 });
 
 export class AppsMenu extends Component {
+    props = useProps({
+        slots: t.object({
+            default: t.any().optional(),
+            search_bar: t.any().optional(),
+        }),
+    });
     setup() {
         super.setup();
         this.theme = session.apps_menu?.theme || "milk";
@@ -176,12 +182,6 @@ patch(NavBar.prototype, {
 
 Object.assign(AppsMenu, {
     template: "mba_web_responsive.AppsMenu",
-    props: {
-        slots: {
-            type: Object,
-            optional: true,
-        },
-    },
 });
 
 Object.assign(NavBar.components, {AppsMenu, AppMenuItem, AppsMenuSearchBar});

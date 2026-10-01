@@ -15,7 +15,6 @@ export class AppsMenuSearchBar extends Component {
 }
 
 Object.assign(AppsMenuSearchBar, {
-    props: {},
     template: "mba_web_responsive.AppsMenuSearchBar",
     components: {
         AppsMenuOdooSearchBar,
