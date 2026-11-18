@@ -7,9 +7,9 @@
 # License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl.html).
 
 {
-    "name": "Web Responsive",
+    "name": "Web Responsive (MBA Consultings)",
     "summary": "Responsive web client, community-supported",
-    "version": "20.0.1.0.0",
+    "version": "20.0.1.0.1",
     "category": "Website",
     "website": "https://github.com/OCA/web",
     "author": "LasLabs, Tecnativa, ITerra, Onestein, Odoo Community Association (OCA)",
